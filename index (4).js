@@ -20,7 +20,7 @@ const makeCommits = (n) => {
   const y = random.int(0, 5);
   const date = moment()
     .subtract(getRndInteger(0,6), "y")
-    .add(1, "d")
+    .add(1, "d")S
     .add(x, "w")
     .add(y, "d")
     .format();
